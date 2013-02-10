@@ -1,0 +1,21 @@
+#ifndef BANKACCOUNT_H
+#define BANKACCOUNT_H
+
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+class BankAccount {
+ public:
+
+ private:
+  float interestRate;
+  float monthlyPayment;
+  
+
+
+};
+
+
+
+#endif BANKACCOUNT_H

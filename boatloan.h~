@@ -1,0 +1,19 @@
+#ifndef BOATLOAN_H
+#define BOATLOAN_H
+
+#include <iostream>
+#include <iomanip>
+#include "bankaccount.h"
+
+class BoatLoan : public BankAccount {
+ public:
+  BoatLoan();
+  BoatLoan(int, int);
+  int getMaxLootStorage();
+  int getNumOfCannons();
+
+ private:
+  int maxLootStorage;
+  int numOfCannons;
+
+};

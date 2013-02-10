@@ -1,0 +1,34 @@
+#include <iostream>
+#include "bankaccount.h"
+using namespace std;
+
+BankAccount::BankAccount(){
+  interestRateSavings=;
+  interestRateLoan=;
+  monthlyPayment=;
+  principal=;
+}
+
+BankAccount::BankAccount(float saverate, float loanrate, float monthpay, float principal){
+  interestRateSavings=saverate;
+  interestRateLoan=loanrate;
+  monthlyPayment=monthpay;
+  principal=principal;
+}
+
+float BankAccount::getInterestRateSavings(){
+  return (interestRateSavings);
+}
+
+float BankAccount::getInterestRateLoan(){
+  return (interestRateLoan);
+}
+
+float BankAccount::getMonthlyPayment(){
+  return (monthlyPayment);
+}
+
+float BankAccount::getPrincipal(){
+  return (principal);
+}
+
